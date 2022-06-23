@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0px;    
+}
+nav li {
+    display: inline;
+    margin: 20px;
+}
+nav ul {
+    background-color: rgba(7, 7, 7, 0.81);
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+.me {
+    border-radius: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    background-color: darksalmon;
+    text-align: center;
+}
+p {
+    font-size: x-large;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 150px;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 150px;
+}
+
+.bridge{
+    height: 600px;
+    width: 700px;
+    border-radius: 8%;
+}

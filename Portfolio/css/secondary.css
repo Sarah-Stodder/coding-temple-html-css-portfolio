@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0px;    
+}
+nav li {
+    display: inline;
+    margin: 20px;
+}
+nav ul {
+    background-color: rgba(7, 7, 7, 0.81);
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+div a:link, a:visited {
+    background-color: salmon;
+    color: whitesmoke;
+    border: 2px solid lightgray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  li {
+    list-style-type: none;
+  }
+  div a:hover, a:active {
+    background-color: salmon;
+    color: white;
+  }
+  body {
+    background-color: lightgray;
+    font-size: larger;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+  }
+  label {
+    font-size: large;
+  }
+  fieldset {
+    border: 0px;
+    
+  }

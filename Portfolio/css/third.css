@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0px;    
+}
+nav li {
+    display: inline;
+    margin: 20px;
+}
+nav ul {
+    background-color: rgba(7, 7, 7, 0.81);
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+h1, p {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 100px;
+}
+body {
+    background-color: black;
+    color: whitesmoke;
+}
